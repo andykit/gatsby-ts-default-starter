@@ -20,7 +20,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```shell
     # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    gatsby new my-gatsby-ts-starter https://github.com/andykit/gatsby-ts-default-starter
     ```
 
 1.  **Start developing.**
@@ -28,7 +28,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-default-starter/
+    cd my-gatsby-ts-starter/
     gatsby develop
     ```
 
@@ -56,6 +56,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── LICENSE
     ├── package-lock.json
     ├── package.json
+    ├── tsconfig.json
     └── README.md
 
 1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
